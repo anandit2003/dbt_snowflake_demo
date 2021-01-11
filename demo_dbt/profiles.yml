@@ -1,0 +1,19 @@
+snowflake:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      account: gl00045.eu-west-1
+
+      # User/password auth
+      user: MDHANAPAL
+      password: Oracle2021!
+
+      role: SYSADMIN
+      database: MD_DEMO
+      warehouse: COMPUTE_WH
+      schema: MVIEW_DEMO
+      threads: 10
+      client_session_keep_alive: False
+ 
+
